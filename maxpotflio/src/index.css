@@ -25,7 +25,7 @@
   
   --container-width-lg:75%;
   --container-width-md:86%;
-  --container-width-ms:90%;
+  --container-width-sm:90%;
 
 
 }
@@ -51,8 +51,9 @@ body{
 
 
 .container{
-  width:var(--container-width-lg)
+  width:var(--container-width-lg);
   margin:0 auto;
+  
  
 }
 
@@ -66,8 +67,17 @@ h1{
 }
 
 section{
-  margin-top: 8rem;
+
   height: 100vh;
+  
+  
+  
+  
+  
+  
+  
+
+  
   
   
   
@@ -133,24 +143,32 @@ img{
 
 
 @media screen and (max-width:1024px){
-  .contianer{
+  .container{
     width:var(--container-width-md);
 
   }
   section {
-    margin-top:8rem;
+    
+    margin-top: 8rem;
+    height:112vh;
+    
+    
   }
+ 
 
 
 }
 @media screen and (max-width:600px){
-  .contianer{
+  .container{
     width:var(--container-width-sm);
 
   }
   section > h2 {
     margin-top:2rem;
   }
+ 
+
+  
 
 
 }

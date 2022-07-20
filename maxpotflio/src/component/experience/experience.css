@@ -63,9 +63,11 @@
     grid-template-columns: 1fr;
    }
    .experience_container > div {
-    width: 80%;
+    width: 70%;
+    
     padding:2rem;
     margin: 0 auto;
+    
    }
 
    .experience_content{
@@ -78,8 +80,12 @@
      gap:1rem;
     }
     .experience_container > div {
-        width:100%;
+        width:90%;
         padding:2rem 1rem;
         
+        
+        
+
     }
+  
 }
