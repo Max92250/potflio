@@ -54,6 +54,7 @@ body{
   width:var(--container-width-lg);
   margin:0 auto;
   
+  
  
 }
 
@@ -68,7 +69,9 @@ h1{
 
 section{
 
-  height: 100vh;
+  height: 80vh;
+  
+  
   
   
   
@@ -150,8 +153,9 @@ img{
   }
   section {
     
-    margin-top: 8rem;
+    
     height:112vh;
+    margin-top:4rem;
     
     
   }
@@ -167,7 +171,11 @@ img{
   section > h2 {
     margin-top:2rem;
   }
- 
+  section{
+    
+    margin-top: 6rem;
+  }
+  
 
   
 
